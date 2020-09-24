@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html, body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+}
+
+::-moz-selection { /* Code for Firefox */
+    color: #fff;
+    background:rgba(0, 180, 202, 1);
+}
+
+::selection {
+    color: #fff;
+    background:rgba(0, 180, 202, 1);
+}
+
+body{
+    background-image: url(https://img.freepik.com/free-vector/abstract-technology-particle-background_52683-25766.jpg?size=626&ext=jpg&ga=GA1.2.256168235.1596067200);
+    /* background-image: url(https://blog.sigmaphoto.com/wp-content/uploads/2015/08/David-FitzSimmons_Sunset-300mm-Siesta-Key-Beach-1200.jpg); */
+    /* background-image: url(https://marketplace.canva.com/EAD2-sy3snI/2/0/1600w/canva-tropical-happiness-zoom-virtual-background-JtPR2q13C4g.jpg); */
+    /* background-image: url(https://images2.alphacoders.com/564/thumb-1920-564835.jpg); */
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+main#main{
+    /* background: linear-gradient(to bottom right, rgba(0, 255, 255, 0.7), rgba(0, 255, 255, 0.7), rgba(255, 20, 147, 0.7)); */
+    /* background: linear-gradient(to bottom right,rgba(255, 20, 147, 0.7), rgba(255, 165, 0, 0.7) ); */
+    /* background: linear-gradient(to bottom right,rgba(177, 81, 161, 0.7), rgba(57, 43, 134, 0.7) ); */
+    /* background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.1), rgba(200, 200, 200, 0.9)); */
+    background: rgba(150, 255, 255, 0.6);
+    /* background: rgba(255, 255, 255, 0.6); */
+    position: fixed;
+    top: 0;
+    left:0;
+    right:0;
+    bottom:0;
+    overflow-y: scroll;
+}
+
+main#main::-webkit-scrollbar {
+    width: 0px;
+}
+
+.clear{
+    clear: both;
+}
+
+.float-right{
+    float: right;
+}
+
+.float-left{
+    float: left;
+}
+
+.flex{
+    display: flex;
+}
