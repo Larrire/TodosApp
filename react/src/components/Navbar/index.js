@@ -51,6 +51,10 @@ const Nav = styled.div`
             user-select: none;
         }
     }
+    
+    @media(max-width: 980px) {
+        display: none;
+    }
 `;
 
 const LinksBar = styled.div`
@@ -67,7 +71,8 @@ function Navbar(){
             <Nav>
                 <div className="nomeUsuario">
                     <div>
-                        <img src="https://avatars0.githubusercontent.com/u/47510492?s=460&u=83dd9e8b88fafd3f149201ad485c80237dcaba9c&v=4" />
+                        {/* <img height="100px" src="https://avatars0.githubusercontent.com/u/47510492?s=460&u=83dd9e8b88fafd3f149201ad485c80237dcaba9c&v=4" /> */}
+                        <img height="100px" src="https://caocidadao.com.br/wp-content/uploads/2019/09/user.png" />    
                     </div>
                     <span>
                         Nome usuario

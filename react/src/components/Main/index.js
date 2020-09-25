@@ -7,6 +7,12 @@ const DivMain = styled.div`
     margin: 2%;
     position: relative;
     top: 75px;
+    
+    @media(max-width: 980px) {
+        float: none;
+        width: 96%;
+        margin-top: 20px;
+    }
 `;
 
 function Main(props){

@@ -69,6 +69,9 @@ const FlexDiv = styled.div`
     display: flex;
     position: relative;
     height: 90%;
+    @media(max-width: 980px) {
+        justify-content: center;
+    }
 `;
 
 const FormLogin = styled.div`
@@ -88,6 +91,10 @@ const FormLogin = styled.div`
         color: #444;
         font-size: 30px;
     }
+    @media(max-width: 980px) {
+        left: 0;
+        margin: 0 20px;
+    }
 `;
 
 const DivGroup = styled.div`
@@ -106,6 +113,15 @@ const ImgDiv = styled.div`
         -ms-user-select: none;
         user-select: none;  
     }
+    @media(max-width: 1091px) {
+        img {
+            margin-top: 10%;
+            height: 90%;
+        }
+    }
+    @media(max-width: 980px) {
+        display: none;
+    }
 `;
 
 const DivLogo = styled.div`
@@ -119,6 +135,11 @@ const DivLogo = styled.div`
     h2 {
         margin: 0;
     }
+    @media(max-width: 780px) {
+        h1{
+            font-size: 35px !important;
+        }
+    }
 `;
 
 const Login = () => {
@@ -130,6 +151,7 @@ const Login = () => {
 
     return (
         <>
+            <div id="outradiv">
             <MainDiv>
                 <DivLogo>
                     <MyLogo style={{fontSize: '50px'}} />
@@ -159,6 +181,7 @@ const Login = () => {
                     </FormLogin>
                 </FlexDiv>
             </MainDiv>
+            </div>
         </>
     )
 }

@@ -7,6 +7,7 @@ const DivCard = styled.div`
     border-radius: 15px;
     padding: 15px;
     border: 1px solid lightgray;
+    // box-shadow: 2px 2px 2px black;
 `;
 
 function Card({children, className, ...rest}){

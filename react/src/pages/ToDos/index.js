@@ -78,6 +78,7 @@ const ToDo = styled.div`
     border-radius: 10px;
     transition: box-shadow 0.4s;
     cursor: pointer;
+    box-shadow: 3px 3px 5px #999;
     h4 {
         margin: 0;
         margin-bottom: 10px;
@@ -111,7 +112,7 @@ function ToDos(){
                     <MyCard>
                         <h2>Meus to-dos</h2>
                         <DivFiltros>
-                            <div>
+                            {/* <div>
                                 <label htmlFor="">Ordenar por </label>
                                 <select>
                                     <option>Data de criação</option>
@@ -119,21 +120,21 @@ function ToDos(){
                                     <option>Cor</option>
                                     <option>Título</option>
                                 </select>
-                            </div>
+                            </div> */}
                             <button>Adicionar novo</button>
                         </DivFiltros>
                         <DivTodos>
                             <ToDo>
                                 <TodoHeader>
                                     <h4>Lorem ipsum dolors</h4>
-                                    <span class="green"></span>
+                                    <span className="green"></span>
                                 </TodoHeader>
                                 <p>Lorem ipsum dolors Lorem ipsum dolors Lorem ipsum dolors Lorem ipsum dolors </p>
                             </ToDo>
                             <ToDo>
                                 <TodoHeader>
                                     <h4>Lorem ipsum dolors</h4>
-                                    <span class="blue"></span>
+                                    <span className="blue"></span>
                                 </TodoHeader>
                                 <p>Lorem ipsum dolors Lorem ipsum dolors Lorem ipsum dolors Lorem ipsum dolors </p>
                             </ToDo>
@@ -144,7 +145,7 @@ function ToDos(){
                                             <h4>Lorem ipsum dolors</h4>
                                             <div>
                                                 <p>25/05/2020</p>
-                                                <span class="red"></span>
+                                                <span className="red"></span>
                                             </div>
                                         </TodoHeader>
                                         <p>
