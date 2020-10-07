@@ -158,7 +158,7 @@ const Login = () => {
                 </DivLogo>
                 <FlexDiv>
                     <ImgDiv>
-                        <img src={ImgLogin} />
+                        <img src={ImgLogin} alt="Imagem de login" />
                     </ImgDiv>
                     <FormLogin>
                         <h2>Login</h2>

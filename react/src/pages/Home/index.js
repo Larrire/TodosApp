@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import styled from 'styled-components';
 import Template from '../../components/Template'
 import Card from '../../components/Card';
-import InputTest from '../../components/InputTest';
+// import InputTest from '../../components/InputTest';
 
 const DivHome = styled.div`
     h2{
@@ -12,7 +12,7 @@ const DivHome = styled.div`
 
 const ReactiveH2 = (props) => {
     return (
-        <h2> { props.var != '' ? props.var : props.default } </h2>
+        <h2> { props.var !== '' ? props.var : props.default } </h2>
     )
 }
 
