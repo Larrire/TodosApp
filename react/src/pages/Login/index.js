@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useCallback} from 'react';
 import './index.css'
 import styled from 'styled-components';
 import Input from '../../components/MyInput';
@@ -144,10 +144,10 @@ const DivLogo = styled.div`
 
 const Login = () => {
 
-    function toggle(){
+    const toggle = useCallback( () => {
         alert('a');
         window.scrollTo(0, 100);
-    }
+    }, []);
 
     return (
         <>
@@ -158,7 +158,7 @@ const Login = () => {
                 </DivLogo>
                 <FlexDiv>
                     <ImgDiv>
-                        <img src={ImgLogin} />
+                        <img src={ImgLogin} alt="Imagem de login" />
                     </ImgDiv>
                     <FormLogin>
                         <h2>Login</h2>

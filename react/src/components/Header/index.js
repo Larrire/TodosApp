@@ -46,9 +46,9 @@ const DivHeader = styled.div`
     }
 `;
 
-const HeaderButton = styled(Button)`
-    margin-left: 15px;
-`;
+// const HeaderButton = styled(Button)`
+//     margin-left: 15px;
+// `;
 
 const MyButton = styled(Button)`
     width: 100%;
