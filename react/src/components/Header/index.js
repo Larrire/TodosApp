@@ -19,7 +19,7 @@ const DivHeader = styled.div`
     height: 75px;
     z-index: 1;
     
-    box-shadow 1px 1px 5px white;
+    box-shadow 1px 1px 5px rgba(0,0,0,0.3);
     h1{
         margin: 0;
         font-size: 30px;
@@ -45,10 +45,6 @@ const DivHeader = styled.div`
         }
     }
 `;
-
-// const HeaderButton = styled(Button)`
-//     margin-left: 15px;
-// `;
 
 const MyButton = styled(Button)`
     width: 100%;

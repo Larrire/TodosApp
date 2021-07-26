@@ -7,23 +7,26 @@ import { faHome, faListUl, faUser, faChartLine, faSignOutAlt } from '@fortawesom
 
 const MyButton = styled(Button)`
     width: 100%;
-    background: rgba(255,255,255, 0.5);
+    background: rgba(245, 245, 245, 1);
+    font-size: 16px;
     padding: 15px;
-    margin-bottom: 3px !important;
+    margin-bottom: 5px !important;
     outline: 0;
     border: 0;
     border-radius: 0;
     transition: background,padding 0.3s;
     :hover {
-        background: rgba(255, 255, 255, 0.9);
+        background: rgba(255, 255, 255, 1);
         padding-left: 30px;
     }
 `;
 
 const Nav = styled.div`
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(252, 252, 252, 0.85);
+    max-width: 350px;
     width: 18%;
     // min-height: calc(100vh - 75px);
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.2);
     position: fixed;
     z-index: 1;
     top: 75px;
@@ -60,6 +63,7 @@ const Nav = styled.div`
 const LinksBar = styled.div`
     height: 65%;
     overflow: scroll;
+    scrollbar-width: none;
     ::-webkit-scrollbar {
         width: 0px;
     }

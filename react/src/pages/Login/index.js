@@ -20,12 +20,13 @@ const LoginButton = styled(Button)`
     padding: 13px;
     border-radius: 50px;
     width: 100%;
+    font-weight: bold;
     background: linear-gradient(to bottom right, rgba(255,165,0, 0.7), rgba(255, 20, 147, 1) );
     // border: 1px solid #fff;
     border: 0;
     color: #fff;
     font-size: 17px;
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 1px 1px 1px #444;
 `;
 
 const SignUpButton = styled.button`

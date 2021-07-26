@@ -73,12 +73,13 @@ const TodoHeader = styled.div`
 
 const ToDo = styled.div`
     background: rgba(255, 255, 255, 0.6);
-    margin-bottom: 15px;
-    padding: 15px;
+    margin: 15px 0;
+    padding: 20px;
+    color: #333;
     border-radius: 10px;
     transition: box-shadow 0.4s;
     cursor: pointer;
-    box-shadow: 3px 3px 5px #999;
+    box-shadow: 2px 2px 5px lightgray;
     h4 {
         margin: 0;
         margin-bottom: 10px;
@@ -97,8 +98,8 @@ const ToDo = styled.div`
         font-size: 15px;
     }
     :hover {
-        // background: rgba(255, 200, 0, 0.7);
-        box-shadow: 5px 5px 20px #999;
+        background: #fff;
+        box-shadow: 3px 3px 10px rgb(200,200,200);
     }
 `;
 
